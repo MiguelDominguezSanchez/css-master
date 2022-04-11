@@ -1,0 +1,43 @@
+
+/*=============================================
+=            Fonts            =
+=============================================*/
+@font-face{
+  font-family: MontserratCustomFont;
+  src: url("fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-family: 'Mansalva', cursive;
+  text-transform: uppercase;
+  font-size: 45px;
+
+  /* Colors */
+
+  /* System Colors */
+  color: mediumpurple;
+
+  /* Hexadecimal Colors */
+  color: #748e45;
+
+  /* RGB Colors */
+  color: rgba(255, 221, 0);
+  /* RGBA Colors */
+  color: rgba(255, 221, 0, 0.8);
+}
+
+h3{
+  font-family: MontserratCustomFont, "Comic Sans MS";
+  font-size: 25px;
+  font-weight: lighter;
+  color: olive;
+}
+
+p{
+  font-family: sans-serif;
+  font-size:18px;
+  font-weight: bold;
+}
