@@ -7,12 +7,23 @@
     </head>
     <body>
       <h1>CSS Boxes</h1>
-      <div id="box1">
-        <p>Box 1 Content</p>
-      </div>
-      <section id="box2">
-        <p>Box 1 Content</p>
+      <!-- FLOATED ELEMENTS -->
+      <section id="boxes">
+        <div class="box">
+          <p>Box 1 Content</p>
+        </div>
+        <div class="box">
+          <p>Box 1 Content</p>
+        </div>
       </section>
+
+      <!-- CLEAN FLOATED -->
+      <div class="clearfix"></div>
+      
+      <!-- NON-FLOATED ELEMENTS THAT REMAIN BELOW -->
+      <h2>Content after positioned boxes</h2>
+      <p>Sample test</p>
+
       
     </body>
   </html>
