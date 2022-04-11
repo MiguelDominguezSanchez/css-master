@@ -8,7 +8,7 @@ Complete exercise with HTML & CSS
 (DONE) 6. The main content must have a 70% width.
 (DONE) 7. The inner content of the main container must be a grid with 4 lines of 2 boxes.
 (DONE) 8. The sidebar must have a 30% width.
-9. The footer must have a 100% width of the div that its containing it, and be at the bottom.
+(DONE) 9. The footer must have a 100% width of the div that its containing it, and be at the bottom.
  */
 
 *{
@@ -68,7 +68,7 @@ color: white;
 
 #content{
   width: 69%;
-  border: 1px solid black;
+  /* border: 1px solid green; */
   float: left;
 }
 
@@ -76,6 +76,7 @@ color: white;
   float: left;
   width: 30%;
   border: 1px solid red;
+  min-height: 500px;
 }
 
 #content > h1 {
@@ -94,4 +95,14 @@ color: white;
   float: left;
   margin: 20px;
   margin-left: 40px;
+}
+
+footer{
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  background:#eee;
+  text-align: center;
+  color: #444;
+  border-top: 1px solid #ccc;
 }
