@@ -147,3 +147,16 @@ footer{
   left: 52%;
   z-index: 101;
 }
+
+.fixed{
+  position: fixed;
+  top: 50%;
+  left: 0px;
+
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+  width: 50px;
+  height: 50px;
+  font-size: 13px;
+}
