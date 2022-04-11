@@ -5,9 +5,9 @@ Complete exercise with HTML & CSS
 (DONE) 3. The whole content must be in the general container and its width must be 1200px & be centered.
 (DONE) 4. Header must occupy the 100% of the width and hav a big centered text.
 (DONE) 5. The Menu must have each element side by side the other.
-6. The main content must have a 70% width.
+(DONE) 6. The main content must have a 70% width.
 7. The inner content of the main container must be a grid with 4 lines of 2 boxes.
-8. The sidebar must have a 30% width.
+(DONE) 8. The sidebar must have a 30% width.
 9. The footer must have a 100% width of the div that its containing it, and be at the bottom.
  */
 
@@ -64,4 +64,16 @@ cursor: pointer;
 }
 #menu ul li:hover a{
 color: white;
+}
+
+#content{
+  width: 69%;
+  border: 1px solid black;
+  float: left;
+}
+
+#lateral{
+  float: left;
+  width: 30%;
+  border: 1px solid red;
 }
