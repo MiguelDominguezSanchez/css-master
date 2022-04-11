@@ -7,6 +7,11 @@ body{
   padding: 40px;
 }
 
+#boxes {
+  max-width: 1035px;
+  border: 1px solid black;
+}
+
 .box{
   display: block;
   width: 250px;
