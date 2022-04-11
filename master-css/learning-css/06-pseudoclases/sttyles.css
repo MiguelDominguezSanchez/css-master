@@ -1,0 +1,53 @@
+*{
+  font-family: Arial;
+}
+
+ul li {
+  font-size: 20px;
+}
+
+ul li:first-child{
+  color:purple;
+  font-weight: bold;
+}
+
+ul li:nth-child(2){
+  color:orange;
+  font-weight: bold;
+}
+
+ul li:last-child{
+  color:grey;
+  font-weight: bold;
+}
+
+#my-link{
+  font-size: 30px;
+  color:lightsalmon;
+}
+
+#my-link:link{
+  color: red;
+}
+
+#my-link:visited{
+  color: orangered;
+}
+
+#my-link:hover{
+  color: blue;
+}
+
+#my-link:active{
+  color: green;
+  font-family: Impact;
+}
+
+input[type="text"]{
+  margin-top:20px;
+  padding: 10px;
+}
+
+input[type="text"]:focus{
+  border: 4px dashed red;
+}
