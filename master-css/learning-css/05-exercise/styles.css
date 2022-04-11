@@ -6,7 +6,7 @@ Complete exercise with HTML & CSS
 (DONE) 4. Header must occupy the 100% of the width and hav a big centered text.
 (DONE) 5. The Menu must have each element side by side the other.
 (DONE) 6. The main content must have a 70% width.
-7. The inner content of the main container must be a grid with 4 lines of 2 boxes.
+(DONE) 7. The inner content of the main container must be a grid with 4 lines of 2 boxes.
 (DONE) 8. The sidebar must have a 30% width.
 9. The footer must have a 100% width of the div that its containing it, and be at the bottom.
  */
@@ -76,4 +76,22 @@ color: white;
   float: left;
   width: 30%;
   border: 1px solid red;
+}
+
+#content > h1 {
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding: 15px;
+  color: #444;
+}
+
+#content .box {
+  width: 40%;
+  height: 250px;
+  background-color: red;
+  border: 5px solid blue;
+  color:white;
+  float: left;
+  margin: 20px;
+  margin-left: 40px;
 }
