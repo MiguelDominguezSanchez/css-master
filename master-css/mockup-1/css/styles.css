@@ -1,3 +1,58 @@
+
+/*=============================================
+=            Fonts            =
+=============================================*/
+
+
+
+
+
+/*=============================================
+=            General Styles            =
+=============================================*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+/*=====  End of General Styles  ======*/
 body{
-  background:red;
+  background-image: url("../img/paven.png");
+}
+
+
+/*----------  Header  ----------*/
+#header{
+  min-width: 1024px;
+  width: 100%;
+  height: 250px;
+  margin: 0px auto;
+}
+
+#header a{
+  text-decoration: none;
+}
+
+#header #logotype{
+  width: 770px;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+
+#header #logotype img{
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+  width:140px;
+}
+
+#header h1{
+  text-align: center;
+  font-size:40px;
+  color: #70b231;
+}
+
+#header h1 a{
+  color: #70b231;
 }
