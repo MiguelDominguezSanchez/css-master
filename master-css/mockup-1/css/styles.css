@@ -30,6 +30,18 @@ body{
   background-image: url("../img/paven.png");
 }
 
+a {
+  color: #529125;
+  text-decoration: none;
+}
+a:visited {
+  color: #529125;
+  text-decoration: none;
+}
+a:hover {
+  color: #285616;
+}
+
 
 /*----------  Forms  ----------*/
 input[type="text"],
@@ -219,7 +231,8 @@ color: #666;
 
 
 /*----------  Sidebar  ----------*/
-#aside{
+#aside, #phrase{
+  clear: both;
   width:200px;
   float: left;
   margin: 30px;
@@ -240,6 +253,13 @@ color: #666;
   border-bottom: 1px dashed #333;
 }
 
+#phrase {
+  width: 180px;
+  padding:10px;
+  font-size:14px;
+  font-family: sans-serif;
+}
+
 #aside .widget:last-child{
   margin-bottom: 20px;
 }
@@ -251,8 +271,41 @@ color: #666;
   text-align: center;
   padding-top: 2px;
   padding-bottom: 2px;
+  margin-bottom: 15px;
   background: #f2f3f2;
   border: 1px solid #ccc;
   border-left: none;
   border-right: none;
+}
+
+#aside li{
+  margin-top: 8px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  list-style: square;
+}
+
+/*----------  Sidebar Forms  ----------*/
+#aside div label,
+#aside div input[type="text"],
+#aside div input[type="email"],
+#aside div input[type="password"],
+#aside div a{
+  display: block;
+  width: 85%;
+  margin-top:2px;
+  margin-bottom:2px;
+}
+
+#aside div input[type="button"],
+#aside div input[type="submit"],
+#aside div button{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#aside input,
+#aside label{
+  margin: 0px auto;
+  text-align: center;
 }
