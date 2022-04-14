@@ -57,6 +57,9 @@ a:hover {
   color: #0c73f2 !important;
 }
 
+.orange{
+  color: #d69d2a !important;
+}
 
 /*----------  Forms  ----------*/
 input[type="text"],
@@ -269,7 +272,7 @@ color: #666;
 }
 
 #phrase {
-  clear: both;
+  /* clear: both; */
   width: 180px;
   padding:10px;
   font-size:14px;
@@ -343,6 +346,7 @@ color: #666;
   font-weight: normal;
   letter-spacing: 1px;
   text-align: center;
+  margin-top: -20px;
   padding-top: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
@@ -368,4 +372,15 @@ color: #666;
 #sections .date{
   color: gray;
   font-size: 14px;
+}
+
+#sections .stickerOne, 
+#sections .stickerTwo{
+  position: absolute;
+  margin-top: -38px;
+  z-index: 0;
+}
+
+#sections .stickerTwo{
+margin-left: 860px;
 }
