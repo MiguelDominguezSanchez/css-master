@@ -42,6 +42,14 @@ a:hover {
   color: #285616;
 }
 
+.red{
+  color: #9b2422 !important;
+}
+
+.blue{
+  color: #0c73f2 !important;
+}
+
 
 /*----------  Forms  ----------*/
 input[type="text"],
