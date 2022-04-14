@@ -78,6 +78,11 @@ a:hover {
   margin-top: -2px;
 }
 
+.clearfix{
+  float: none;
+  clear: both;
+}
+
 /*----------  Forms  ----------*/
 input[type="text"],
 input[type="email"],
@@ -259,6 +264,7 @@ color: #666;
 
 /*----------  Content  ----------*/
 #content{
+  font-family: sans-serif, arial, helvetica;
   width: 1250px;
   min-height: 1100px;
   margin: 0px auto;
@@ -401,3 +407,28 @@ color: #666;
 #sections .stickerTwo{
 margin-left: 860px;
 }
+
+#history{
+  float: right;
+  margin-top:20px;
+  margin-right: 20px;
+  font-family: sans-serif, arial, helvetica;
+}
+
+
+/*----------  Footer  ----------*/
+
+#footer{
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  margin-top:40px;
+  background-color: #333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: sans-serif, arial, helvetica;
+  font-size: 14px;
+  box-shadow: 0px 0px 2px gray;
+}
+
