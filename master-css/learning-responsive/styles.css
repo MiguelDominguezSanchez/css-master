@@ -52,3 +52,50 @@ aside {
   float: left;
   margin: 15px;
 }
+
+
+/*----------  Responsive  ----------*/
+
+/* From screen width 0px to 888px */
+@media (max-width: 888px){
+  /* These style will be executed */
+
+  #articles article{
+    width: 40%;
+    background: red;
+  }
+}
+
+@media (max-width: 623px) {
+
+  #container{
+    overflow: hidden;
+  }
+
+  aside{
+    float: none;
+    min-height: auto;
+    line-height: 20px;
+    width: 91%;
+    padding:19px;
+  }
+
+  #articles {
+    width: 100%;
+  }
+
+  #articles article{
+    width: 100%;
+    background: blue;
+  }
+}
+
+@media (max-width: 554px) {
+
+  body {
+   background-color: lightsalmon;
+  }
+}
+
+
+
