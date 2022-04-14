@@ -21,6 +21,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "icons";
+  src: url("fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format('svg'),
+      url("fonts/websymbols-regular-webfont.eot");
+  src: url("fonts/websymbols-regular-webfont.eot?#iefiix") format('embedded-opentype');
+  src: url("fonts/websymbols-regular-webfont.woff") format('woff');
+  src: url("fonts/websymbols-regular-webfont.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 /*=============================================
@@ -59,6 +69,13 @@ a:hover {
 
 .orange{
   color: #d69d2a !important;
+}
+
+.icons{
+  font-family: 'icons';
+  float: left;
+  margin-right: 5px;
+  margin-top: -2px;
 }
 
 /*----------  Forms  ----------*/
